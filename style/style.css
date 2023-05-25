@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "MarlinGeo";
+  src: url("assets/font/MarlinGeo-Black.woff") format("woff"),
+    url("assets/font/MarlinGeo-Bold.woff") format("woff"),
+    url("assets/font/MarlinGeo-ExtraBlack.woff") format("woff"),
+    url("assets/font/MarlinGeo-ExtraBold.woff") format("woff"),
+    url("assets/font/MarlinGeo-Medium.woff") format("woff"),
+    url("assets/font/MarlinGeo-Regular.woff") format("woff"),
+    url("assets/font/MarlinGeoSlant-Black.woff") format("woff"),
+    url("assets/font/MarlinGeoSlant-Bold.woff") format("woff"),
+    url("assets/font/MarlinGeoSlant-ExtraBold.woff") format("woff"),
+    url("assets/font/MarlinGeoSlant-Medium.woff") format("woff"),
+    url("assets/font/MarlinGeoSlant-Regular.woff") format("woff");
+}
+
+body {
+  font-family: "MarlinGeo", "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+nav .logo h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #313131;
+}
+
+nav .logo span {
+  color: #0abf5e;
+  font-size: 20px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu li a{
+  margin: 0 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #313131;
+  cursor: pointer;
+}
+
+.menu li a:hover {
+  color: #0abf5e;
+}
+
+.download-cv-button {
+  display: block;
+  background-color: #0abf5e;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.download-cv-button:hover {
+  background-color: #09a351;
+  color: #ffffff;
+}
