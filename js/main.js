@@ -115,7 +115,7 @@ scroll.reveal(
 );
 
 scroll.reveal(
-  `.about-1 .col:first-child img, .languages img, .testimonials .row`,
+  `.about-1 .col:first-child img, .languages img, .row`,
   {
     origin: "top",
   }
