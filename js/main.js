@@ -13,7 +13,7 @@ window.addEventListener("scroll", () => {
 /* =========== User Data =========== */
 
 const counters = [...document.querySelectorAll(".user-data .number")];
-const speed = 5000; // change animation speed here
+const speed = 500; 
 
 const start = () => {
   counters.forEach((counter) => {
@@ -95,6 +95,8 @@ const scroll = ScrollReveal({
 });
 
 scroll.reveal(`.hero .col:last-child`, { delay: 600 });
+
+scroll.reveal(`.projects .col:last-child`, { delay: 600 });
 
 scroll.reveal(
   `.about-1 .col:last-child h3,.about-1 .col:last-child p,
