@@ -95,9 +95,9 @@ const scroll = ScrollReveal({
 });
 
 scroll.reveal(`.hero .col:last-child`, { delay: 600 });
-scroll.reveal(`.projects .card:last-child,.col`, { delay: 600 });
+scroll.reveal(`.projects .card:last-child,`, { delay: 600 });
 
-scroll.reveal(`.projects .col`, { delay: 600 , origin: "top"});
+scroll.reveal(`.projects .col`, { delay: 700 ,origin: "bottom"});
 
 scroll.reveal(
   ` 
