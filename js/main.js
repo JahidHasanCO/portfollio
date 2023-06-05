@@ -13,7 +13,7 @@ window.addEventListener("scroll", () => {
 /* =========== User Data =========== */
 
 const counters = [...document.querySelectorAll(".user-data .number")];
-const speed = 500; 
+const speed = 5000; 
 
 const start = () => {
   counters.forEach((counter) => {
@@ -95,11 +95,13 @@ const scroll = ScrollReveal({
 });
 
 scroll.reveal(`.hero .col:last-child`, { delay: 600 });
+scroll.reveal(`.projects .card:last-child,.col`, { delay: 600 });
 
-scroll.reveal(`.projects .col:last-child`, { delay: 600 });
+scroll.reveal(`.projects .col`, { delay: 600 , origin: "top"});
 
 scroll.reveal(
-  `.about-1 .col:last-child h3,.about-1 .col:last-child p,
+  ` 
+  .about-1 .col:last-child h3,.about-1 .col:last-child p,
   .about-1 .col:last-child li`,
   {
     origin: "bottom",
