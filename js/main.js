@@ -89,15 +89,15 @@ window.addEventListener("scroll", (e) => {
 /* ========== Scroll Reveal ============ */
 const scroll = ScrollReveal({
   distance: "60px",
-  duration: 2500,
+  duration: 1500,
   delay: 300,
   reset: true,
 });
 
-scroll.reveal(`.hero .col:last-child`, { delay: 600 });
-scroll.reveal(`.projects .card:last-child,`, { delay: 600 });
+scroll.reveal(`.hero .col:last-child`, { delay: 500 });
+scroll.reveal(`.projects .card:last-child,`, { delay: 500 });
 
-scroll.reveal(`.projects .col`, { delay: 700 ,origin: "bottom"});
+scroll.reveal(`.projects .col`, { delay: 600 ,origin: "bottom"});
 
 scroll.reveal(
   ` 

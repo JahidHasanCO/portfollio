@@ -746,15 +746,9 @@ p {
 }
 
 @media (max-width: 768px) {
-
-  .subscribe {
-    margin: 0 auto;
-    text-align: center;
-  }
-
   .subscribe .row {
     display: block;
-    width: 100%;
+    width: 82%;
   }
 
   .subscribe .row .col:first-child {
